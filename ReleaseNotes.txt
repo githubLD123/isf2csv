@@ -1,0 +1,26 @@
+ISF TO CSV CONVERSION PROGRAM v2.00 release notes
+
+ 
+The ISF to CSV Conversion Program
+ 
+Program Description:
+ 
+cnvrtwfm is the utility used to convert ISF files to CSV files.
+ 
+Supported Scopes:
+ 
+MSO4000, DPO4000, MSO3000, DPO3000, MSO2000, DPO2000, TDS3000, TDS3000B, TDS3000C Series oscilloscopes
+ 
+Normal Usage:
+ 
+cnvrtwfm -l -8- myfile.isf
+ 
+-Executing this command will generate a file called myfile.csv
+which is viewable in a spreadsheet application such as Microsoft Excel.
+ 
+General Notes:
+ 
+-The csv files for waveforms with record lengths greater than
+10,000 points cannot be completely loaded by some versions of Microsoft Excel.
+ 
+-Peak Detect mode and Envelope mode are not supported in this release.
